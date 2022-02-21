@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://flarefrontui.netlify.app/pages/components.css">
+    <link rel="stylesheet" href="/Pages/productListing/productlistingPage.css">
+    <link rel="stylesheet" href="/Pages/style.css">
+    <link rel="stylesheet" href="/Pages/header.css">
+    <script src="https://kit.fontawesome.com/223f475189.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/Pages/homePage/homepage.html">
+                    <h2>FlareFrontRigs</h2>
+                </a>
+            </div>
+            <div class="nav-search">
+                <input type="text" placeholder="search" />
+            </div>
+            <nav class="nav-aside">
+                <ul class="nav-ul">
+                    <li><a href="/Pages/loginPage/loginpage.html"><button type="button"
+                                class="btn btn-primary">Login</button></a></li>
+                    <li><a href="/Pages/wishlistpage/wishlistpage.html">
+                            <div class="badge">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="badge-count">0</div>
+                        </a></li>
+                    <li><a href="/Pages/cartPage/cartpage.html">
+                            <div class="badge">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="badge-count">0</div>
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <aside class="aside-container ">
+        <div style="padding:1rem;">
+            <div class="aside-filter-clear">
+                <h5>Filter</h5>
+                <a href="#">Clear</a>
+            </div>
+            <h5 class="aside-price">Price</h5>
+            <div class="slider-values">
+                <span>100</span>
+                <span>5000</span>
+                <span>10000</span>
+            </div>
+            <input type="range" class="slider" min="100" max="10000" value="20000">
+            <div>
+                <h5 class="aside-price">Category</h5>
+                <div class="aside-category">
+                    <label for="Components">
+                        <input type="checkbox" name="components" id="components"> Components
+                    </label>
+                    <label for="Peripherals">
+                        <input type="checkbox" name="Peripherals" id="Peripherals"> Peripherals
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <h5 class="aside-price">Rating</h5>
+                <div class="aside-category">
+                    <label for="4-stars-&-above">
+                        <input type="radio" name="rating" id="4-stars-&-above"> 4 stars & above
+                    </label>
+                    <label for="3-stars-&-above">
+                        <input type="radio" name="rating" id="3-stars-&-above"> 3 stars & above
+                    </label>
+                    <label for="2-stars-&-above">
+                        <input type="radio" name="rating" id="2-stars-&-above"> 2 stars & above
+                    </label>
+                    <label for="1-stars-&-above">
+                        <input type="radio" name="rating" id="1-stars-&-above"> 1 stars & above
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <h5 class="aside-price">Sort by</h5>
+                <div class="aside-category">
+                    <label for="price-low-to-high">
+                        <input type="radio" name="sort" id="price-low-to-high"> Price - Low to High
+                    </label>
+                    <label for="price-high-to-low">
+                        <input type="radio" name="sort" id="price-high-to-low"> Price - High to Low
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </aside>
+
+
+    <main class="main-container">
+        <div class="card">
+            <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" class="card-img">
+            <div class="card-title">Galax Geforce GTX 1080</div>
+            <div class="card-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque!</div>
+            <div class="card-text"> Rs. 39990/-
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary"> Add to Cart </button>
+                <button type="button" class="btn btn-primary"> Wish to Cart </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" class="card-img">
+            <div class="card-title">Galax Geforce GTX 1080</div>
+            <div class="card-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque!</div>
+            <div class="card-text"> Rs. 39990/-
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary"> Add to Cart </button>
+                <button type="button" class="btn btn-primary"> Wish to Cart </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" class="card-img">
+            <div class="card-title">Galax Geforce GTX 1080</div>
+            <div class="card-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque!</div>
+            <div class="card-text"> Rs. 39990/-
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary"> Add to Cart </button>
+                <button type="button" class="btn btn-primary"> Wish to Cart </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" class="card-img">
+            <div class="card-title">Galax Geforce GTX 1080</div>
+            <div class="card-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque!</div>
+            <div class="card-text"> Rs. 39990/-
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary"> Add to Cart </button>
+                <button type="button" class="btn btn-primary"> Wish to Cart </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" class="card-img">
+            <div class="card-title">Galax Geforce GTX 1080</div>
+            <div class="card-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque!</div>
+            <div class="card-text"> Rs. 39990/-
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary"> Add to Cart </button>
+                <button type="button" class="btn btn-primary"> Wish to Cart </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" class="card-img">
+            <div class="card-title">Galax Geforce GTX 1080</div>
+            <div class="card-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque!</div>
+            <div class="card-text"> Rs. 39990/-
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary"> Add to Cart </button>
+                <button type="button" class="btn btn-primary"> Wish to Cart </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" class="card-img">
+            <div class="card-title">Galax Geforce GTX 1080</div>
+            <div class="card-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque!</div>
+            <div class="card-text"> Rs. 39990/-
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary"> Add to Cart </button>
+                <button type="button" class="btn btn-primary"> Wish to Cart </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" class="card-img">
+            <div class="card-title">Galax Geforce GTX 1080</div>
+            <div class="card-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque!</div>
+            <div class="card-text"> Rs. 39990/-
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary"> Add to Cart </button>
+                <button type="button" class="btn btn-primary"> Wish to Cart </button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

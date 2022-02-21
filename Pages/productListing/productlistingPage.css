@@ -1,0 +1,64 @@
+.aside-container{
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+}
+
+.aside-filter-clear{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 1rem;
+}
+
+.aside-filter-clear a{
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+.aside-filter-clear h5{
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.aside-price{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.slider{
+    width: 15rem;
+    margin-bottom: 1.5rem;
+}
+
+.slider-values{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.aside-category{
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -25rem;
+    margin-left: 25rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card{
+    margin-right: 2rem;
+}
+
