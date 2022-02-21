@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="https://flarefrontui.netlify.app/pages/components.css">
+    <link rel="stylesheet" href="/Pages/cartPage/cartpage.css">
+    <link rel="stylesheet" href="/Pages/style.css">
+    <link rel="stylesheet" href="/Pages/header.css">
+    <script src="https://kit.fontawesome.com/223f475189.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/Pages/homePage/homepage.html">
+                    <h2>FlareFrontRigs</h2>
+                </a>
+            </div>
+            <div class="nav-search">
+                <input type="text" placeholder="search" />
+            </div>
+            <nav class="nav-aside">
+                <ul class="nav-ul">
+                    <li><a href="/Pages/loginPage/loginpage.html"><button type="button"
+                                class="btn btn-primary">Login</button></a></li>
+                    <li><a href="/Pages/wishlistpage/wishlistpage.html">
+                            <div class="badge">
+                                <i class="fa-regular fa-heart"></i>
+                                <div class="badge-count">0</div>
+                        </a></li>
+                    <li><a href="/Pages/cartPage/cartpage.html">
+                            <div class="badge">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <div class="badge-count">0</div>
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <h2 style="text-align: center;">My Cart (3) </h2>
+   <main style="display: flex; gap: 2rem;">
+       
+       <div class="cart-container">
+        <div class="card-horizontal">
+            <div class="card-horizontal-box">
+                <div class="card-title">
+                    <h2>Geforce Gtx 1080</h2>
+                     <h4>INR 39,900/- </h4>
+                </div>
+                <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" alt="">
+                <div class="card-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, repellendus. </p>
+                    <a href="/"> <button type="button" class="btn btn-primary"> Remove from cart </button> </a>
+                    <a href="/"> <button type="button" class="btn btn-secondary"> Add to Wishlist </button> </a>
+                </div>
+            </div>
+            <div class="card-horizontal-box">
+                <div class="card-title">
+                    <h2>Geforce Gtx 1080</h2>
+                     <h4>INR 39,900/- </h4>
+                </div>
+                <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" alt="">
+                <div class="card-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, repellendus. </p>
+                    <a href="/"> <button type="button" class="btn btn-primary"> Remove from cart </button> </a>
+                    <a href="/"> <button type="button" class="btn btn-secondary"> Add to Wishlist </button> </a>
+                </div>
+            </div>
+            <div class="card-horizontal-box">
+                <div class="card-title">
+                    <h2>Geforce Gtx 1080</h2>
+                     <h4>INR 39,900/- </h4>
+                </div>
+                <img src="/Assets/NVIDIA-Graphics-Card-Transparent.png" alt="">
+                <div class="card-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, repellendus. </p>
+                    <a href="/"> <button type="button" class="btn btn-primary"> Remove from cart  </button> </a>
+                    <a href="/"> <button type="button" class="btn btn-secondary"> Add to Wishlist  </button> </a>
+                </div>
+            </div>
+        </div>
+
+       </div>
+       <div class="cart-details-container">
+           <div style="padding: 1rem;">
+            <h3 class="cart-details-header">PRICE DETAILS</h3>
+            <div class="line"></div>
+            <div class="cart-details-text">Price (3 items):   Rs 1,19,970/-</div>
+            <div class="cart-details-text">Discount:          -Rs 19,970/-</div>
+            <div class="cart-details-text">Delivery charges:  Rs 900/-</div>
+            <div class="line"></div>
+            <div class="cart-details-footer">Total Amount:     Rs 1,00,900/-</div>
+            <div class="line"></div>
+            <div class="cart-details-text">You will save Rs 9,070/- on this order.</div>
+            <button type="button" class="btn btn-primary">Place your order</button>
+           </div>   
+       </div>
+   </main>
+
+</body>
+
+</html>
